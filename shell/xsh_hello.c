@@ -40,6 +40,9 @@ void prod2(sid32 consumed, sid32 produced)
     }
 }
 
+//git commands for config
+git config
+
 void cons2(sid32 consumed, sid32 produced)
 {
     int32 i;
