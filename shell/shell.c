@@ -8,6 +8,7 @@
 /* Table of Xinu shell commands and the function associated with each	*/
 /************************************************************************/
 const	struct	cmdent	cmdtab[] = {
+	{"hello", xsh_hello},
 	{"argecho",	xsh_argecho},
 	{"arp",		xsh_arp},
 	{"cat",		xsh_cat},

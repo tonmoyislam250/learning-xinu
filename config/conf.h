@@ -27,45 +27,43 @@ extern	struct	dentry	devtab[]; /* one entry per device */
 
 #define CONSOLE              0	/* type tty      */
 #define NULLDEV              1	/* type null     */
-#define ETHER0               2	/* type eth      */
-#define NAMESPACE            3	/* type nam      */
-#define RDISK                4	/* type rds      */
-#define RAM0                 5	/* type ram      */
-#define RFILESYS             6	/* type rfs      */
-#define RFILE0               7	/* type rfl      */
-#define RFILE1               8	/* type rfl      */
-#define RFILE2               9	/* type rfl      */
-#define RFILE3              10	/* type rfl      */
-#define RFILE4              11	/* type rfl      */
-#define RFILE5              12	/* type rfl      */
-#define RFILE6              13	/* type rfl      */
-#define RFILE7              14	/* type rfl      */
-#define RFILE8              15	/* type rfl      */
-#define RFILE9              16	/* type rfl      */
-#define LFILESYS            17	/* type lfs      */
-#define LFILE0              18	/* type lfl      */
-#define LFILE1              19	/* type lfl      */
-#define LFILE2              20	/* type lfl      */
-#define LFILE3              21	/* type lfl      */
-#define LFILE4              22	/* type lfl      */
-#define LFILE5              23	/* type lfl      */
-#define PIPE                24	/* type pipem    */
-#define PIPE0               25	/* type pip      */
-#define PIPE1               26	/* type pip      */
-#define PIPE2               27	/* type pip      */
-#define PIPE3               28	/* type pip      */
-#define PIPE4               29	/* type pip      */
-#define PIPE5               30	/* type pip      */
-#define PIPE6               31	/* type pip      */
-#define PIPE7               32	/* type pip      */
-#define PIPE8               33	/* type pip      */
-#define PIPE9               34	/* type pip      */
+#define NAMESPACE            2	/* type nam      */
+#define RDISK                3	/* type rds      */
+#define RAM0                 4	/* type ram      */
+#define RFILESYS             5	/* type rfs      */
+#define RFILE0               6	/* type rfl      */
+#define RFILE1               7	/* type rfl      */
+#define RFILE2               8	/* type rfl      */
+#define RFILE3               9	/* type rfl      */
+#define RFILE4              10	/* type rfl      */
+#define RFILE5              11	/* type rfl      */
+#define RFILE6              12	/* type rfl      */
+#define RFILE7              13	/* type rfl      */
+#define RFILE8              14	/* type rfl      */
+#define RFILE9              15	/* type rfl      */
+#define LFILESYS            16	/* type lfs      */
+#define LFILE0              17	/* type lfl      */
+#define LFILE1              18	/* type lfl      */
+#define LFILE2              19	/* type lfl      */
+#define LFILE3              20	/* type lfl      */
+#define LFILE4              21	/* type lfl      */
+#define LFILE5              22	/* type lfl      */
+#define PIPE                23	/* type pipem    */
+#define PIPE0               24	/* type pip      */
+#define PIPE1               25	/* type pip      */
+#define PIPE2               26	/* type pip      */
+#define PIPE3               27	/* type pip      */
+#define PIPE4               28	/* type pip      */
+#define PIPE5               29	/* type pip      */
+#define PIPE6               30	/* type pip      */
+#define PIPE7               31	/* type pip      */
+#define PIPE8               32	/* type pip      */
+#define PIPE9               33	/* type pip      */
 
 /* Control block sizes */
 
 #define	Nnull	1
 #define	Ntty	1
-#define	Neth	1
 #define	Nrds	1
 #define	Nram	1
 #define	Nrfs	1
@@ -76,7 +74,7 @@ extern	struct	dentry	devtab[]; /* one entry per device */
 #define	Npipem	1
 #define	Npip	10
 
-#define NDEVS 35
+#define NDEVS 34
 
 
 /* Configuration and Size Constants */
